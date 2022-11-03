@@ -1,1 +1,80 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Atsiskaitomasis darbas CodeAcademy - HTML/CSS pagrindai"
+    />
+    <title>HTML/CSS</title>
+    <link
+      rel="shortcut icon"
+      href="https://codeacademy.lt/wp-content/uploads/2021/05/cropped-favicon-1-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/SCSS/styles.css" />
+  </head>
+
+  <body>
+    <div class="main-layout">
+      <header class="header">
+        <img class="page-logo" src="/assets/logo.svg" alt="page-logo" />
+
+        <nav class="navigation">
+          <div class="navigation__burger"></div>
+
+          <ul class="navigation__list">
+            <li class="navigation__list-item">
+              <a class="navigation__link" href="#">features</a>
+            </li>
+            <li>
+              <a class="navigation__link" href="#">about</a>
+            </li>
+            <li>
+              <a class="navigation__link" href="#">Launch</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__link--red" href="#"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero__content">
+            <div class="hero__text-container">
+              <span class="hero__teaser">Launching soon</span>
+              <h1 class="hero__heading">An NFT like no other</h1>
+
+              <p class="hero__text">
+                Don't miss out on the release of our new NFT. Sign up below to
+                receive updates when we go live.
+              </p>
+            </div>
+            <div class="hero__image-container">
+              <img
+                class="hero__image"
+                src="/assets/hero-img.png"
+                alt="hero-image"
+              />
+            </div>
+          </div>
+
+          <a class="hero__link" href="#">Sign Up</a>
+        </section>
+      </main>
+
+      <footer>footer</footer>
+    </div>
+  </body>
+</html>

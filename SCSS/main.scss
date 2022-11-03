@@ -1,0 +1,53 @@
+@import "header";
+@import "variables";
+@import "hero";
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
+    grid-auto-rows: auto;
+    margin: 70px 0;
+}
+
+header,
+main,
+footer {
+    grid-column: 2;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .navigation__burger {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .navigation__list {
+        display: none;
+    }
+
+    .main-layout {
+        display: grid;
+        grid-template-columns: 30px 1fr 30px;
+        grid-auto-rows: auto;
+        margin: 30px 0;
+    }
+}
