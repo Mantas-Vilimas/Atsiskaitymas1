@@ -1,0 +1,22 @@
+
+
+.partners {
+    margin-top: 56px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 28px;
+
+
+    &__card {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        color: $dark4;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 36px;
+    }
+}

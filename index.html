@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/SCSS/styles.css" />
@@ -49,30 +49,208 @@
         </nav>
       </header>
 
-      <main>
-        <section class="hero">
-          <div class="hero__content">
-            <div class="hero__text-container">
-              <span class="hero__teaser">Launching soon</span>
-              <h1 class="hero__heading">An NFT like no other</h1>
+      <section class="hero">
+        <div class="hero__content">
+          <div class="hero__text-container">
+            <span class="hero__teaser">Launching soon</span>
+            <h1 class="hero__heading">An NFT like no other</h1>
 
-              <p class="hero__text">
-                Don't miss out on the release of our new NFT. Sign up below to
-                receive updates when we go live.
-              </p>
-            </div>
-            <div class="hero__image-container">
-              <img
-                class="hero__image"
-                src="/assets/hero-img.png"
-                alt="hero-image"
-              />
-            </div>
+            <p class="hero__text">
+              Don't miss out on the release of our new NFT. Sign up below to
+              receive updates when we go live.
+            </p>
           </div>
+          <div class="hero__image-container">
+            <img
+              class="hero__image"
+              src="/assets/hero-img.png"
+              alt="hero-image"
+            />
+          </div>
+        </div>
 
+        <a class="hero__link" href="#">Sign Up</a>
+      </section>
+
+      <section class="banner">
+        <div class="banner__content">
+          <h2 class="banner__heading">Free NFT for early birds</h2>
+          <span class="banner__text"
+            >Sign up today and you'll get a free NFT when we launch.</span
+          >
+        </div>
+      </section>
+
+      <section class="partners">
+        <div class="partners__card">
+          <img
+            class="partners__logo"
+            src="/assets/companies/blimp.svg"
+            alt=""
+          />
+          <span class="partners__text">Blimp</span>
+        </div>
+
+        <div class="partners__card">
+          <img class="partners__logo" src="/assets/companies/boom.svg" alt="" />
+          <span class="partners__text">Boom</span>
+        </div>
+
+        <div class="partners__card">
+          <img
+            class="partners__logo"
+            src="/assets/companies/blimp2.svg"
+            alt=""
+          />
+          <span class="partners__text">Qrco</span>
+        </div>
+
+        <div class="partners__card">
+          <img
+            class="partners__logo"
+            src="/assets/companies/droplet.svg"
+            alt=""
+          />
+          <span class="partners__text">Droplet</span>
+        </div>
+      </section>
+
+      <section class="showcase">
+        <h2 class="showcase__heading">LE Super Rare Auction</h2>
+        <p class="showcase__text">
+          We gave released four limited edition NFTS early which can be bid on
+          via <a class="showcase__link" href="#">OpenSea</a>.
+        </p>
+
+        <ul class="product-list">
+          <li class="product-list__item">
+            <div class="product-card">
+              <img class="product-card__image" src="/assets/ntfs/ntf-1.svg" alt="nft-product1" />
+              <div class="product-card__content">
+                <div class="product-card__left">
+                  <span class="product-card__series">Gloop series</span>
+                  <h3 class="product-card__heading">Purple Man</h3>
+                  <span class="product-card__number">#12983</span>
+                </div>
+                <div class="product-card__right">
+                  <span class="product-card__bid">Top bid</span>
+                  <div class="product-card__currency">
+                    <img
+                      class="product-card__currency-img"
+                      src="/assets/currency.png"
+                      alt="currency"
+                    />
+                    <p class="product-card__value">2.99 ETH</p>
+                  </div>
+
+                  <span class="product-card__timer">1 day left</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-list__item">
+            <div class="product-card">
+              <img class="product-card__image" src="/assets/ntfs/nft-2.svg" alt="nft-product2"/>
+              <div class="product-card__content">
+                <div class="product-card__left">
+                  <span class="product-card__series">Gloop series</span>
+                  <h3 class="product-card__heading">Beige</h3>
+                  <span class="product-card__number">#12983</span>
+                </div>
+                <div class="product-card__right">
+                  <span class="product-card__bid">Top bid</span>
+                  <div class="product-card__currency">
+                    <img
+                      class="product-card__currency-img"
+                      src="/assets/currency.png"
+                      alt="currency"
+                    />
+                    <p class="product-card__value">2.99 ETH</p>
+                  </div>
+
+                  <span class="product-card__timer">1 day left</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-list__item">
+            <div class="product-card">
+              <img class="product-card__image" src="/assets/ntfs/ntf-4.svg" alt="nft-product4"/>
+              <div class="product-card__content">
+                <div class="product-card__left">
+                  <span class="product-card__series">Gloop series</span>
+                  <h3 class="product-card__heading">Green man</h3>
+                  <span class="product-card__number">#12983</span>
+                </div>
+                <div class="product-card__right">
+                  <span class="product-card__bid">Top bid</span>
+                  <div class="product-card__currency">
+                    <img
+                      class="product-card__currency-img"
+                      src="/assets/currency.png"
+                      alt="currency"
+                    />
+                    <p class="product-card__value">2.99 ETH</p>
+                  </div>
+
+                  <span class="product-card__timer">1 day left</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="product-list__item">
+            <div class="product-card">
+              <img class="product-card__image" src="/assets/ntfs/ntf-3.svg" alt="nft-product3"/>
+              <div class="product-card__content">
+                <div class="product-card__left">
+                  <span class="product-card__series">Gloop series</span>
+                  <h3 class="product-card__heading">Beige</h3>
+                  <span class="product-card__number">#12983</span>
+                </div>
+                <div class="product-card__right">
+                  <span class="product-card__bid">Top bid</span>
+                  <div class="product-card__currency">
+                    <img
+                      class="product-card__currency-img"
+                      src="/assets/currency.png"
+                      alt="currency"
+                    />
+                    <p class="product-card__value">2.99 ETH</p>
+                  </div>
+
+                  <span class="product-card__timer">1 day left</span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="hero">
+        <div class="hero__content">
+          <div class="hero__text-container">
+            <span class="hero__teaser">Launching soon</span>
+            <h1 class="hero__heading">An NFT like no other</h1>
+
+            <p class="hero__text">
+              Don't miss out on the release of our new NFT. Sign up below to
+              receive updates when we go live.
+            </p>
+          </div>
           <a class="hero__link" href="#">Sign Up</a>
-        </section>
-      </main>
+        </div>
+        <div class="hero__image-container">
+                    <img
+                      class="hero__image"
+                      src="/assets/hero-img2.png"
+                      alt="hero-image"
+                    />
+                  </div>
+        
+      </section>
 
       <footer>footer</footer>
     </div>

@@ -1,11 +1,5 @@
 @import "variables";
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .navigation__burger {
     mask: url(/assets/bars-solid.svg) no-repeat center / contain ;
     -webkit-mask: url(/assets/bars-solid.svg) no-repeat center / contain ;
@@ -16,7 +10,15 @@
 
 .page-logo {
     height: 36px;
+    display: block;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .navigation {
 
