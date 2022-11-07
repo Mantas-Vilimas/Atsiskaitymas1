@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 28px;
+    column-gap: 20px;
 
 
     &__card {
@@ -18,5 +19,28 @@
         font-weight: 400;
         font-size: 31px;
         line-height: 36px;
+    }
+
+    &__card:nth-child(2n) {
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .partners__card {
+        flex-basis: calc(50% - 10px)
+    }
+    
+    .partners__card--visibility {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .partners {
+        margin-top: 122px;
+        margin-bottom: 122px;
     }
 }
